@@ -13,6 +13,8 @@
 		9D34C7AA269F81DA008C00A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D34C7A8269F81DA008C00A1 /* Main.storyboard */; };
 		9D34C7AC269F81DA008C00A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D34C7AB269F81DA008C00A1 /* Assets.xcassets */; };
 		9D34C7AF269F81DA008C00A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D34C7AD269F81DA008C00A1 /* LaunchScreen.storyboard */; };
+		9D34C7B7269F85AB008C00A1 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34C7B6269F85AB008C00A1 /* PersonCell.swift */; };
+		9D34C7B9269F8C6E008C00A1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34C7B8269F8C6E008C00A1 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9D34C7AB269F81DA008C00A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D34C7AE269F81DA008C00A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D34C7B0269F81DA008C00A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D34C7B6269F85AB008C00A1 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		9D34C7B8269F8C6E008C00A1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				9D34C7A2269F81DA008C00A1 /* AppDelegate.swift */,
 				9D34C7A4269F81DA008C00A1 /* SceneDelegate.swift */,
 				9D34C7A6269F81DA008C00A1 /* ViewController.swift */,
+				9D34C7B8269F8C6E008C00A1 /* Person.swift */,
 				9D34C7A8269F81DA008C00A1 /* Main.storyboard */,
+				9D34C7B6269F85AB008C00A1 /* PersonCell.swift */,
 				9D34C7AB269F81DA008C00A1 /* Assets.xcassets */,
 				9D34C7AD269F81DA008C00A1 /* LaunchScreen.storyboard */,
 				9D34C7B0269F81DA008C00A1 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D34C7B9269F8C6E008C00A1 /* Person.swift in Sources */,
 				9D34C7A7269F81DA008C00A1 /* ViewController.swift in Sources */,
 				9D34C7A3269F81DA008C00A1 /* AppDelegate.swift in Sources */,
+				9D34C7B7269F85AB008C00A1 /* PersonCell.swift in Sources */,
 				9D34C7A5269F81DA008C00A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95X8D63F3T;
 				INFOPLIST_FILE = Project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95X8D63F3T;
 				INFOPLIST_FILE = Project10/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
